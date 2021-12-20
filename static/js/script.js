@@ -1,5 +1,5 @@
-document.addEventListener('DOMContentLoaded', function() {
-    //sidenav initilizor 
-    let sidenav = document.querySelectorAll('.sidenav');
-    M.Sidenav.init(elems, options);
+document.addEventListener("DOMContentLoaded", function() {
+    // sidenav initialization
+    let sidenav = document.querySelectorAll(".sidenav");
+    M.Sidenav.init(sidenav);
 });
